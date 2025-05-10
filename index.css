@@ -1,0 +1,52 @@
+body{
+  background-color:#FADADD ;
+text-align: center;
+font-family: 'Press Start 2P', monospace;
+font-size: 150%;
+}
+
+.title{
+  color:#4A4A4A;
+  opacity: 0; /*hide text initially*/
+  transform: translateX(-100%); /*send it to left*/
+  animation: slideIn 1.5s ease-out forwards;
+  text-align: center;
+  margin:200px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+@keyframes slideIn {
+  to{
+    opacity : 1;
+    transform: translateX(0);
+  }
+}
+
+.tests{
+  background-color: #E6E6FA;
+  color:#7A7A7A;
+  margin:0px;
+ padding: 15px;
+display: inline-block;
+ border-radius: 20px;
+ border-color: black;
+}
+
+.tests a:hover{
+  transform: translateY(-5px);
+}
+
+img{
+  margin-right: 10px;
+}
+.tests a{
+  color:#7A7A7A;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  transition : transform 0.2s ease;
+  text-decoration: none;
+}

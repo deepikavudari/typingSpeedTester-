@@ -1,0 +1,29 @@
+body{
+    background-image: url("public/images/opacityLowImg.jpg");
+    background-repeat: no-repeat;
+   background-size: 50%;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    color:#2F2F2F;
+    font-size: larger;
+}
+
+h1{
+    margin-top: 300px;
+}
+
+button{
+    background-color: #FADADD;
+    color: #4A4A4A;
+    font-family: 'Press Start 2P', monospace;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 100%;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-5px);
+}
